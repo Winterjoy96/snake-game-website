@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Neon Snake Game</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+
+    <!-- / ICON -->
+    <link rel="icon" href="/img/icon.png" />
+    <!-- / NULL STYLE -->
+    <link rel="stylesheet" href="css/null.css" />
+    <!-- / STYLE -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- CODE_CODE_CODE -->
+
+    <div class="sidebar">
+        <div class="container">
+            <div class="left">
+                <div class="container">
+                    <!-- / Speed -->
+                    <div class="speed">
+                        <div id="speed1">Super Slow Speed</div>
+                        <div id="speed2">Low Speed</div>
+                        <div id="speed3" class="active">Normal Speed</div>
+                        <div id="speed4">High Speed</div>
+                        <div id="speed5">Impossible Speed</div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="container">
+                    <!-- / Food -->
+                    <div id="food" class="food">
+                        <div id="goto-skins">Go to Skins</div>
+                        <div id="food1" class="active">One Berry</div>
+                        <div id="food2">More Berries</div>
+                        <div id="food3">A lot of Berries</div>
+                    </div>
+                    <!-- / Skins -->
+                    <div id="skins" class="skins hidden">
+                        <div id="goto-food">Go to Berries</div>
+                        <div id="skin1" class="active">Pink Lemonade</div>
+                        <div id="skin2">Sky Blue</div>
+                        <div id="skin3">Strawberry Red</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="canvas-flex" class="canvas-flex color-pink">
+        <div class="score">
+            <div id="score">Score:</div>
+            <div id="max">Max Score:</div>
+        </div>
+        <div class="canvas-wrapper">
+            <canvas id="game" width="400" height="400"></canvas>
+        </div>
+        
+    </div>
+
+    <!--CODE_CODE_CODE-->
+
+    <!-- / JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- / GAME SCRIPT -->
+    <script src="/js/game.js"></script>
+    <!-- / SCRIPT -->
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
